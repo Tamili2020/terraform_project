@@ -14,7 +14,7 @@ resource "aws_vpc" "main" {
         cidr_block        = "10.0.0.0/28"
         availability_zone = "us-east-1a"
         tags = {
-            Name = "main_subnet"
+            Name = "main_subnes"
             created_on = timestamp()
             created_by = "terraform"
         }
