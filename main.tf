@@ -16,7 +16,7 @@ resource "aws_vpc" "main" {
         tags = {
             Name = "main_subnet"
             created_on = timestamp()
-            created_by = "terraform"
+            created_by = "terraform-user"
         }
     
   
